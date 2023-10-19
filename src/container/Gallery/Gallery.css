@@ -1,0 +1,31 @@
+.app__gallery{
+    display: flex;
+    flex-direction: row;
+    background: var(--color-black);
+    padding: 4rem 0 4rem 6rem;
+}
+
+.app__gallery-images_container{
+    display: flex;
+    width: 100%;
+}
+.app__gallery-images_container img{
+    width: 250px;
+    margin: 2rem;
+}
+
+@media screen and (max-width: 650px) {
+    .app__gallery-images_container img{
+        width: 60%;
+        margin: 2rem;
+    }
+    .app__gallery{
+        flex-direction: column;
+    }
+    .app__gallery-images_container img{
+        display: none;
+    }
+    .app__gallery{
+        padding: 2rem 0 2rem 2rem;
+    }
+}

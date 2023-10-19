@@ -1,0 +1,23 @@
+.app__video{
+    height: 70vh;
+    position: relative;
+}
+.app__video video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.app__video-overlay{
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.65);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+
+.app__video-overlay-p{
+   
+    font-size: 45px;
+}
